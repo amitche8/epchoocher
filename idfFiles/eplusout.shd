@@ -1,0 +1,430 @@
+Shadowing Combinations
+..Solar Distribution=FullInteriorAndExterior
+..In the following, only the first 10 reference surfaces will be shown.
+..But all surfaces are used in the calculations.
+==================================
+Surface=BLOCK TWO STOREY STOREY 0 WALL 0001 WINDOW OVERHANG is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=2
+..Surface=BLOCK TWO STOREY STOREY 0 WALL 0001
+..Surface=BLOCK ONE STOREY STOREY 0 WALL 0001
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=Mir-BLOCK TWO STOREY STOREY 0 WALL 0001 WINDOW OVERHANG is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=9
+..Surface=BLOCK TWO STOREY STOREY 0 WALL 0004 WINDOW OVERHANG
+..Surface=BLOCK TWO STOREY STOREY 1 WALL 0001 WINDOW OVERHANG
+..Surface=BLOCK TWO STOREY STOREY 1 WALL 0002 WINDOW OVERHANG
+..Surface=BLOCK TWO STOREY STOREY 1 WALL 0003 WINDOW OVERHANG
+..Surface=BLOCK TWO STOREY STOREY 1 WALL 0004 WINDOW OVERHANG
+..Surface=BLOCK TWO STOREY STOREY 0 WALL 0001
+..Surface=BLOCK TWO STOREY STOREY 1 WALL 0001
+..Surface=BLOCK TWO STOREY STOREY 1 FLOOR 0001_1
+..Surface=BLOCK ONE STOREY STOREY 0 WALL 0001
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=BLOCK TWO STOREY STOREY 0 WALL 0003 WINDOW OVERHANG is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=2
+..Surface=BLOCK TWO STOREY STOREY 0 WALL 0003
+..Surface=BLOCK ONE STOREY STOREY 0 WALL 0003
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=Mir-BLOCK TWO STOREY STOREY 0 WALL 0003 WINDOW OVERHANG is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=9
+..Surface=BLOCK TWO STOREY STOREY 0 WALL 0004 WINDOW OVERHANG
+..Surface=BLOCK TWO STOREY STOREY 1 WALL 0001 WINDOW OVERHANG
+..Surface=BLOCK TWO STOREY STOREY 1 WALL 0002 WINDOW OVERHANG
+..Surface=BLOCK TWO STOREY STOREY 1 WALL 0003 WINDOW OVERHANG
+..Surface=BLOCK TWO STOREY STOREY 1 WALL 0004 WINDOW OVERHANG
+..Surface=BLOCK TWO STOREY STOREY 0 WALL 0003
+..Surface=BLOCK TWO STOREY STOREY 1 WALL 0003
+..Surface=BLOCK TWO STOREY STOREY 1 FLOOR 0001_1
+..Surface=BLOCK ONE STOREY STOREY 0 WALL 0003
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=BLOCK TWO STOREY STOREY 0 WALL 0004 WINDOW OVERHANG is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=1
+..Surface=BLOCK TWO STOREY STOREY 0 WALL 0004
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=Mir-BLOCK TWO STOREY STOREY 0 WALL 0004 WINDOW OVERHANG is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=7
+..Surface=BLOCK TWO STOREY STOREY 1 WALL 0001 WINDOW OVERHANG
+..Surface=BLOCK TWO STOREY STOREY 1 WALL 0002 WINDOW OVERHANG
+..Surface=BLOCK TWO STOREY STOREY 1 WALL 0003 WINDOW OVERHANG
+..Surface=BLOCK TWO STOREY STOREY 1 WALL 0004 WINDOW OVERHANG
+..Surface=BLOCK TWO STOREY STOREY 0 WALL 0004
+..Surface=BLOCK TWO STOREY STOREY 1 WALL 0004
+..Surface=BLOCK TWO STOREY STOREY 1 FLOOR 0001_1
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=BLOCK TWO STOREY STOREY 1 WALL 0001 WINDOW OVERHANG is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=1
+..Surface=BLOCK TWO STOREY STOREY 1 WALL 0001
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=Mir-BLOCK TWO STOREY STOREY 1 WALL 0001 WINDOW OVERHANG is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=2
+..Surface=BLOCK TWO STOREY STOREY 1 WALL 0004 WINDOW OVERHANG
+..Surface=BLOCK TWO STOREY STOREY 1 WALL 0001
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=BLOCK TWO STOREY STOREY 1 WALL 0002 WINDOW OVERHANG is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=1
+..Surface=BLOCK TWO STOREY STOREY 1 WALL 0002
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=Mir-BLOCK TWO STOREY STOREY 1 WALL 0002 WINDOW OVERHANG is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=2
+..Surface=BLOCK TWO STOREY STOREY 1 WALL 0004 WINDOW OVERHANG
+..Surface=BLOCK TWO STOREY STOREY 1 WALL 0002
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=BLOCK TWO STOREY STOREY 1 WALL 0003 WINDOW OVERHANG is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=1
+..Surface=BLOCK TWO STOREY STOREY 1 WALL 0003
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=Mir-BLOCK TWO STOREY STOREY 1 WALL 0003 WINDOW OVERHANG is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=2
+..Surface=BLOCK TWO STOREY STOREY 1 WALL 0004 WINDOW OVERHANG
+..Surface=BLOCK TWO STOREY STOREY 1 WALL 0003
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=BLOCK TWO STOREY STOREY 1 WALL 0004 WINDOW OVERHANG is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=1
+..Surface=BLOCK TWO STOREY STOREY 1 WALL 0004
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=Mir-BLOCK TWO STOREY STOREY 1 WALL 0004 WINDOW OVERHANG is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=1
+..Surface=BLOCK TWO STOREY STOREY 1 WALL 0004
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=BLOCK ONE STOREY STOREY 0 WALL 0001 WINDOW OVERHANG is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=2
+..Surface=BLOCK TWO STOREY STOREY 0 WALL 0001
+..Surface=BLOCK ONE STOREY STOREY 0 WALL 0001
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=Mir-BLOCK ONE STOREY STOREY 0 WALL 0001 WINDOW OVERHANG is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=10
+..Surface=BLOCK TWO STOREY STOREY 0 WALL 0004 WINDOW OVERHANG
+..Surface=BLOCK TWO STOREY STOREY 1 WALL 0001 WINDOW OVERHANG
+..Surface=BLOCK TWO STOREY STOREY 1 WALL 0002 WINDOW OVERHANG
+..Surface=BLOCK TWO STOREY STOREY 1 WALL 0003 WINDOW OVERHANG
+..Surface=BLOCK TWO STOREY STOREY 1 WALL 0004 WINDOW OVERHANG
+..Surface=BLOCK TWO STOREY STOREY 0 WALL 0001
+..Surface=BLOCK TWO STOREY STOREY 1 WALL 0001
+..Surface=BLOCK TWO STOREY STOREY 1 WALL 0002
+..Surface=BLOCK TWO STOREY STOREY 1 FLOOR 0001_1
+..Surface=BLOCK ONE STOREY STOREY 0 WALL 0001
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=BLOCK ONE STOREY STOREY 0 WALL 0002 WINDOW OVERHANG is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=1
+..Surface=BLOCK ONE STOREY STOREY 0 WALL 0002
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=Mir-BLOCK ONE STOREY STOREY 0 WALL 0002 WINDOW OVERHANG is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=8
+..Surface=BLOCK TWO STOREY STOREY 0 WALL 0004 WINDOW OVERHANG
+..Surface=BLOCK TWO STOREY STOREY 1 WALL 0001 WINDOW OVERHANG
+..Surface=BLOCK TWO STOREY STOREY 1 WALL 0002 WINDOW OVERHANG
+..Surface=BLOCK TWO STOREY STOREY 1 WALL 0003 WINDOW OVERHANG
+..Surface=BLOCK TWO STOREY STOREY 1 WALL 0004 WINDOW OVERHANG
+..Surface=BLOCK TWO STOREY STOREY 1 WALL 0002
+..Surface=BLOCK TWO STOREY STOREY 1 FLOOR 0001_1
+..Surface=BLOCK ONE STOREY STOREY 0 WALL 0002
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=BLOCK ONE STOREY STOREY 0 WALL 0003 WINDOW OVERHANG is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=2
+..Surface=BLOCK TWO STOREY STOREY 0 WALL 0003
+..Surface=BLOCK ONE STOREY STOREY 0 WALL 0003
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=Mir-BLOCK ONE STOREY STOREY 0 WALL 0003 WINDOW OVERHANG is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=10
+..Surface=BLOCK TWO STOREY STOREY 0 WALL 0004 WINDOW OVERHANG
+..Surface=BLOCK TWO STOREY STOREY 1 WALL 0001 WINDOW OVERHANG
+..Surface=BLOCK TWO STOREY STOREY 1 WALL 0002 WINDOW OVERHANG
+..Surface=BLOCK TWO STOREY STOREY 1 WALL 0003 WINDOW OVERHANG
+..Surface=BLOCK TWO STOREY STOREY 1 WALL 0004 WINDOW OVERHANG
+..Surface=BLOCK TWO STOREY STOREY 0 WALL 0003
+..Surface=BLOCK TWO STOREY STOREY 1 WALL 0002
+..Surface=BLOCK TWO STOREY STOREY 1 WALL 0003
+..Surface=BLOCK TWO STOREY STOREY 1 FLOOR 0001_1
+..Surface=BLOCK ONE STOREY STOREY 0 WALL 0003
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=BLOCK TWO STOREY STOREY 0 WALL 0001 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=3
+..Surface=BLOCK TWO STOREY STOREY 0 WALL 0001 WINDOW OVERHANG
+..Surface=BLOCK TWO STOREY STOREY 1 WALL 0001 WINDOW OVERHANG
+..Surface=BLOCK ONE STOREY STOREY 0 WALL 0001 WINDOW OVERHANG
+Number of back surfaces=7
+...Surface=BLOCK TWO STOREY STOREY 0 WALL 0003
+...Surface=BLOCK TWO STOREY STOREY 0 WALL 0004
+...Surface=BLOCK TWO STOREY STOREY 0 WALL 0002_1
+...Surface=BLOCK TWO STOREY STOREY 0 FLOOR 0001
+...Surface=BLOCK TWO STOREY STOREY 0 CEILING 0001_1
+...Surface=BLOCK TWO STOREY STOREY 0 WALL 0003 WINDOW
+...Surface=BLOCK TWO STOREY STOREY 0 WALL 0004 WINDOW
+Number of receiving sub surfaces=1
+....Surface=BLOCK TWO STOREY STOREY 0 WALL 0001 WINDOW
+==================================
+Surface=BLOCK TWO STOREY STOREY 0 WALL 0001 WINDOW is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=BLOCK TWO STOREY STOREY 0 WALL 0003 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=3
+..Surface=BLOCK TWO STOREY STOREY 0 WALL 0003 WINDOW OVERHANG
+..Surface=BLOCK TWO STOREY STOREY 1 WALL 0003 WINDOW OVERHANG
+..Surface=BLOCK ONE STOREY STOREY 0 WALL 0003 WINDOW OVERHANG
+Number of back surfaces=7
+...Surface=BLOCK TWO STOREY STOREY 0 WALL 0001
+...Surface=BLOCK TWO STOREY STOREY 0 WALL 0004
+...Surface=BLOCK TWO STOREY STOREY 0 WALL 0002_1
+...Surface=BLOCK TWO STOREY STOREY 0 FLOOR 0001
+...Surface=BLOCK TWO STOREY STOREY 0 CEILING 0001_1
+...Surface=BLOCK TWO STOREY STOREY 0 WALL 0001 WINDOW
+...Surface=BLOCK TWO STOREY STOREY 0 WALL 0004 WINDOW
+Number of receiving sub surfaces=1
+....Surface=BLOCK TWO STOREY STOREY 0 WALL 0003 WINDOW
+==================================
+Surface=BLOCK TWO STOREY STOREY 0 WALL 0003 WINDOW is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=BLOCK TWO STOREY STOREY 0 WALL 0004 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=2
+..Surface=BLOCK TWO STOREY STOREY 0 WALL 0004 WINDOW OVERHANG
+..Surface=BLOCK TWO STOREY STOREY 1 WALL 0004 WINDOW OVERHANG
+Number of back surfaces=7
+...Surface=BLOCK TWO STOREY STOREY 0 WALL 0001
+...Surface=BLOCK TWO STOREY STOREY 0 WALL 0003
+...Surface=BLOCK TWO STOREY STOREY 0 WALL 0002_1
+...Surface=BLOCK TWO STOREY STOREY 0 FLOOR 0001
+...Surface=BLOCK TWO STOREY STOREY 0 CEILING 0001_1
+...Surface=BLOCK TWO STOREY STOREY 0 WALL 0001 WINDOW
+...Surface=BLOCK TWO STOREY STOREY 0 WALL 0003 WINDOW
+Number of receiving sub surfaces=1
+....Surface=BLOCK TWO STOREY STOREY 0 WALL 0004 WINDOW
+==================================
+Surface=BLOCK TWO STOREY STOREY 0 WALL 0004 WINDOW is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=BLOCK TWO STOREY STOREY 0 WALL 0002_1 is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=BLOCK TWO STOREY STOREY 0 FLOOR 0001 is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=BLOCK TWO STOREY STOREY 0 CEILING 0001_1 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=4
+..Surface=BLOCK TWO STOREY STOREY 1 WALL 0001 WINDOW OVERHANG
+..Surface=BLOCK TWO STOREY STOREY 1 WALL 0002 WINDOW OVERHANG
+..Surface=BLOCK TWO STOREY STOREY 1 WALL 0003 WINDOW OVERHANG
+..Surface=BLOCK TWO STOREY STOREY 1 WALL 0004 WINDOW OVERHANG
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=BLOCK TWO STOREY STOREY 1 WALL 0001 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=1
+..Surface=BLOCK TWO STOREY STOREY 1 WALL 0001 WINDOW OVERHANG
+Number of back surfaces=8
+...Surface=BLOCK TWO STOREY STOREY 1 WALL 0002
+...Surface=BLOCK TWO STOREY STOREY 1 WALL 0003
+...Surface=BLOCK TWO STOREY STOREY 1 WALL 0004
+...Surface=BLOCK TWO STOREY STOREY 1 FLOOR 0001_1
+...Surface=BLOCK TWO STOREY STOREY 1 ROOF 0001
+...Surface=BLOCK TWO STOREY STOREY 1 WALL 0002 WINDOW
+...Surface=BLOCK TWO STOREY STOREY 1 WALL 0003 WINDOW
+...Surface=BLOCK TWO STOREY STOREY 1 WALL 0004 WINDOW
+Number of receiving sub surfaces=1
+....Surface=BLOCK TWO STOREY STOREY 1 WALL 0001 WINDOW
+==================================
+Surface=BLOCK TWO STOREY STOREY 1 WALL 0001 WINDOW is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=BLOCK TWO STOREY STOREY 1 WALL 0002 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=1
+..Surface=BLOCK TWO STOREY STOREY 1 WALL 0002 WINDOW OVERHANG
+Number of back surfaces=8
+...Surface=BLOCK TWO STOREY STOREY 1 WALL 0001
+...Surface=BLOCK TWO STOREY STOREY 1 WALL 0003
+...Surface=BLOCK TWO STOREY STOREY 1 WALL 0004
+...Surface=BLOCK TWO STOREY STOREY 1 FLOOR 0001_1
+...Surface=BLOCK TWO STOREY STOREY 1 ROOF 0001
+...Surface=BLOCK TWO STOREY STOREY 1 WALL 0001 WINDOW
+...Surface=BLOCK TWO STOREY STOREY 1 WALL 0003 WINDOW
+...Surface=BLOCK TWO STOREY STOREY 1 WALL 0004 WINDOW
+Number of receiving sub surfaces=1
+....Surface=BLOCK TWO STOREY STOREY 1 WALL 0002 WINDOW
+==================================
+Surface=BLOCK TWO STOREY STOREY 1 WALL 0002 WINDOW is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=BLOCK TWO STOREY STOREY 1 WALL 0003 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=1
+..Surface=BLOCK TWO STOREY STOREY 1 WALL 0003 WINDOW OVERHANG
+Number of back surfaces=8
+...Surface=BLOCK TWO STOREY STOREY 1 WALL 0001
+...Surface=BLOCK TWO STOREY STOREY 1 WALL 0002
+...Surface=BLOCK TWO STOREY STOREY 1 WALL 0004
+...Surface=BLOCK TWO STOREY STOREY 1 FLOOR 0001_1
+...Surface=BLOCK TWO STOREY STOREY 1 ROOF 0001
+...Surface=BLOCK TWO STOREY STOREY 1 WALL 0001 WINDOW
+...Surface=BLOCK TWO STOREY STOREY 1 WALL 0002 WINDOW
+...Surface=BLOCK TWO STOREY STOREY 1 WALL 0004 WINDOW
+Number of receiving sub surfaces=1
+....Surface=BLOCK TWO STOREY STOREY 1 WALL 0003 WINDOW
+==================================
+Surface=BLOCK TWO STOREY STOREY 1 WALL 0003 WINDOW is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=BLOCK TWO STOREY STOREY 1 WALL 0004 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=1
+..Surface=BLOCK TWO STOREY STOREY 1 WALL 0004 WINDOW OVERHANG
+Number of back surfaces=8
+...Surface=BLOCK TWO STOREY STOREY 1 WALL 0001
+...Surface=BLOCK TWO STOREY STOREY 1 WALL 0002
+...Surface=BLOCK TWO STOREY STOREY 1 WALL 0003
+...Surface=BLOCK TWO STOREY STOREY 1 FLOOR 0001_1
+...Surface=BLOCK TWO STOREY STOREY 1 ROOF 0001
+...Surface=BLOCK TWO STOREY STOREY 1 WALL 0001 WINDOW
+...Surface=BLOCK TWO STOREY STOREY 1 WALL 0002 WINDOW
+...Surface=BLOCK TWO STOREY STOREY 1 WALL 0003 WINDOW
+Number of receiving sub surfaces=1
+....Surface=BLOCK TWO STOREY STOREY 1 WALL 0004 WINDOW
+==================================
+Surface=BLOCK TWO STOREY STOREY 1 WALL 0004 WINDOW is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=BLOCK TWO STOREY STOREY 1 FLOOR 0001_1 is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=BLOCK TWO STOREY STOREY 1 ROOF 0001 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=BLOCK ONE STOREY STOREY 0 WALL 0001 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=3
+..Surface=BLOCK TWO STOREY STOREY 0 WALL 0001 WINDOW OVERHANG
+..Surface=BLOCK TWO STOREY STOREY 1 WALL 0001 WINDOW OVERHANG
+..Surface=BLOCK ONE STOREY STOREY 0 WALL 0001 WINDOW OVERHANG
+Number of back surfaces=7
+...Surface=BLOCK ONE STOREY STOREY 0 WALL 0002
+...Surface=BLOCK ONE STOREY STOREY 0 WALL 0003
+...Surface=BLOCK ONE STOREY STOREY 0 WALL 0004_1
+...Surface=BLOCK ONE STOREY STOREY 0 FLOOR 0001
+...Surface=BLOCK ONE STOREY STOREY 0 ROOF 0001
+...Surface=BLOCK ONE STOREY STOREY 0 WALL 0002 WINDOW
+...Surface=BLOCK ONE STOREY STOREY 0 WALL 0003 WINDOW
+Number of receiving sub surfaces=1
+....Surface=BLOCK ONE STOREY STOREY 0 WALL 0001 WINDOW
+==================================
+Surface=BLOCK ONE STOREY STOREY 0 WALL 0001 WINDOW is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=BLOCK ONE STOREY STOREY 0 WALL 0002 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=1
+..Surface=BLOCK ONE STOREY STOREY 0 WALL 0002 WINDOW OVERHANG
+Number of back surfaces=7
+...Surface=BLOCK ONE STOREY STOREY 0 WALL 0001
+...Surface=BLOCK ONE STOREY STOREY 0 WALL 0003
+...Surface=BLOCK ONE STOREY STOREY 0 WALL 0004_1
+...Surface=BLOCK ONE STOREY STOREY 0 FLOOR 0001
+...Surface=BLOCK ONE STOREY STOREY 0 ROOF 0001
+...Surface=BLOCK ONE STOREY STOREY 0 WALL 0001 WINDOW
+...Surface=BLOCK ONE STOREY STOREY 0 WALL 0003 WINDOW
+Number of receiving sub surfaces=1
+....Surface=BLOCK ONE STOREY STOREY 0 WALL 0002 WINDOW
+==================================
+Surface=BLOCK ONE STOREY STOREY 0 WALL 0002 WINDOW is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=BLOCK ONE STOREY STOREY 0 WALL 0003 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=3
+..Surface=BLOCK TWO STOREY STOREY 0 WALL 0003 WINDOW OVERHANG
+..Surface=BLOCK TWO STOREY STOREY 1 WALL 0003 WINDOW OVERHANG
+..Surface=BLOCK ONE STOREY STOREY 0 WALL 0003 WINDOW OVERHANG
+Number of back surfaces=7
+...Surface=BLOCK ONE STOREY STOREY 0 WALL 0001
+...Surface=BLOCK ONE STOREY STOREY 0 WALL 0002
+...Surface=BLOCK ONE STOREY STOREY 0 WALL 0004_1
+...Surface=BLOCK ONE STOREY STOREY 0 FLOOR 0001
+...Surface=BLOCK ONE STOREY STOREY 0 ROOF 0001
+...Surface=BLOCK ONE STOREY STOREY 0 WALL 0001 WINDOW
+...Surface=BLOCK ONE STOREY STOREY 0 WALL 0002 WINDOW
+Number of receiving sub surfaces=1
+....Surface=BLOCK ONE STOREY STOREY 0 WALL 0003 WINDOW
+==================================
+Surface=BLOCK ONE STOREY STOREY 0 WALL 0003 WINDOW is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=BLOCK ONE STOREY STOREY 0 WALL 0004_1 is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=BLOCK ONE STOREY STOREY 0 FLOOR 0001 is not used as Receiving Surface in calculations.
+Number of general casting surfaces=0
+Number of back surfaces=0
+Number of receiving sub surfaces=0
+==================================
+Surface=BLOCK ONE STOREY STOREY 0 ROOF 0001 is used as Receiving Surface in calculations and is convex.
+Number of general casting surfaces=5
+..Surface=BLOCK TWO STOREY STOREY 1 WALL 0001 WINDOW OVERHANG
+..Surface=BLOCK TWO STOREY STOREY 1 WALL 0002 WINDOW OVERHANG
+..Surface=BLOCK TWO STOREY STOREY 1 WALL 0003 WINDOW OVERHANG
+..Surface=BLOCK TWO STOREY STOREY 1 WALL 0004 WINDOW OVERHANG
+..Surface=BLOCK TWO STOREY STOREY 1 WALL 0002
+Number of back surfaces=0
+Number of receiving sub surfaces=0

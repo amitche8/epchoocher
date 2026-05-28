@@ -1,0 +1,236 @@
+
+ Meters for 14,BLOCK TWO STOREY STOREY 0:Zone Air System Sensible Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:BLOCK TWO STOREY STOREY 0 [J]
+  OnMeter=Heating:EnergyTransfer [J]
+  OnMeter=Heating:EnergyTransfer:Zone:BLOCK TWO STOREY STOREY 0 [J]
+  OnMeter=General:Heating:EnergyTransfer [J]
+  OnMeter=General:Heating:EnergyTransfer:Zone:BLOCK TWO STOREY STOREY 0 [J]
+
+ Meters for 99,BLOCK TWO STOREY STOREY 0:Zone Air System Sensible Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:BLOCK TWO STOREY STOREY 0 [J]
+  OnMeter=Cooling:EnergyTransfer [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:BLOCK TWO STOREY STOREY 0 [J]
+  OnMeter=General:Cooling:EnergyTransfer [J]
+  OnMeter=General:Cooling:EnergyTransfer:Zone:BLOCK TWO STOREY STOREY 0 [J]
+
+ Meters for 148,BLOCK TWO STOREY STOREY 1:Zone Air System Sensible Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:BLOCK TWO STOREY STOREY 1 [J]
+  OnMeter=Heating:EnergyTransfer [J]
+  OnMeter=Heating:EnergyTransfer:Zone:BLOCK TWO STOREY STOREY 1 [J]
+  OnMeter=General:Heating:EnergyTransfer [J]
+  OnMeter=General:Heating:EnergyTransfer:Zone:BLOCK TWO STOREY STOREY 1 [J]
+
+ Meters for 185,BLOCK TWO STOREY STOREY 1:Zone Air System Sensible Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:BLOCK TWO STOREY STOREY 1 [J]
+  OnMeter=Cooling:EnergyTransfer [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:BLOCK TWO STOREY STOREY 1 [J]
+  OnMeter=General:Cooling:EnergyTransfer [J]
+  OnMeter=General:Cooling:EnergyTransfer:Zone:BLOCK TWO STOREY STOREY 1 [J]
+
+ Meters for 210,BLOCK ONE STOREY STOREY 0:Zone Air System Sensible Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:BLOCK ONE STOREY STOREY 0 [J]
+  OnMeter=Heating:EnergyTransfer [J]
+  OnMeter=Heating:EnergyTransfer:Zone:BLOCK ONE STOREY STOREY 0 [J]
+  OnMeter=General:Heating:EnergyTransfer [J]
+  OnMeter=General:Heating:EnergyTransfer:Zone:BLOCK ONE STOREY STOREY 0 [J]
+
+ Meters for 247,BLOCK ONE STOREY STOREY 0:Zone Air System Sensible Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:BLOCK ONE STOREY STOREY 0 [J]
+  OnMeter=Cooling:EnergyTransfer [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:BLOCK ONE STOREY STOREY 0 [J]
+  OnMeter=General:Cooling:EnergyTransfer [J]
+  OnMeter=General:Cooling:EnergyTransfer:Zone:BLOCK ONE STOREY STOREY 0 [J]
+
+ Meters for 272,BLOCK TWO STOREY STOREY 0 IDEAL LOADS AIR SYSTEM:Zone Ideal Loads Supply Air Total Heating Energy [J]
+  OnMeter=DistrictHeatingWater:Facility [J]
+  OnMeter=DistrictHeatingWater:HVAC [J]
+  OnMeter=Heating:DistrictHeatingWater [J]
+  OnMeter=General:Heating:DistrictHeatingWater [J]
+
+ Meters for 321,BLOCK TWO STOREY STOREY 0 IDEAL LOADS AIR SYSTEM:Zone Ideal Loads Supply Air Total Cooling Energy [J]
+  OnMeter=DistrictCooling:Facility [J]
+  OnMeter=DistrictCooling:HVAC [J]
+  OnMeter=Cooling:DistrictCooling [J]
+  OnMeter=General:Cooling:DistrictCooling [J]
+
+ Meters for 370,BLOCK TWO STOREY STOREY 1 IDEAL LOADS AIR SYSTEM:Zone Ideal Loads Supply Air Total Heating Energy [J]
+  OnMeter=DistrictHeatingWater:Facility [J]
+  OnMeter=DistrictHeatingWater:HVAC [J]
+  OnMeter=Heating:DistrictHeatingWater [J]
+  OnMeter=General:Heating:DistrictHeatingWater [J]
+
+ Meters for 371,BLOCK TWO STOREY STOREY 1 IDEAL LOADS AIR SYSTEM:Zone Ideal Loads Supply Air Total Cooling Energy [J]
+  OnMeter=DistrictCooling:Facility [J]
+  OnMeter=DistrictCooling:HVAC [J]
+  OnMeter=Cooling:DistrictCooling [J]
+  OnMeter=General:Cooling:DistrictCooling [J]
+
+ Meters for 372,BLOCK ONE STOREY STOREY 0 IDEAL LOADS AIR SYSTEM:Zone Ideal Loads Supply Air Total Heating Energy [J]
+  OnMeter=DistrictHeatingWater:Facility [J]
+  OnMeter=DistrictHeatingWater:HVAC [J]
+  OnMeter=Heating:DistrictHeatingWater [J]
+  OnMeter=General:Heating:DistrictHeatingWater [J]
+
+ Meters for 373,BLOCK ONE STOREY STOREY 0 IDEAL LOADS AIR SYSTEM:Zone Ideal Loads Supply Air Total Cooling Energy [J]
+  OnMeter=DistrictCooling:Facility [J]
+  OnMeter=DistrictCooling:HVAC [J]
+  OnMeter=Cooling:DistrictCooling [J]
+  OnMeter=General:Cooling:DistrictCooling [J]
+
+ Meters for 374,Site:Environmental Impact Total N2O Emissions Carbon Equivalent Mass [kg]
+  OnMeter=Carbon Equivalent:Facility [kg]
+  OnMeter=CarbonEquivalentEmissions:Carbon Equivalent [kg]
+
+ Meters for 399,Site:Environmental Impact Total CH4 Emissions Carbon Equivalent Mass [kg]
+  OnMeter=Carbon Equivalent:Facility [kg]
+  OnMeter=CarbonEquivalentEmissions:Carbon Equivalent [kg]
+
+ Meters for 400,Site:Environmental Impact Total CO2 Emissions Carbon Equivalent Mass [kg]
+  OnMeter=Carbon Equivalent:Facility [kg]
+  OnMeter=CarbonEquivalentEmissions:Carbon Equivalent [kg]
+
+ For Meter=EnergyTransfer:Facility [J], ResourceType=EnergyTransfer, contents are:
+  BLOCK TWO STOREY STOREY 0:Zone Air System Sensible Heating Energy
+  BLOCK TWO STOREY STOREY 0:Zone Air System Sensible Cooling Energy
+  BLOCK TWO STOREY STOREY 1:Zone Air System Sensible Heating Energy
+  BLOCK TWO STOREY STOREY 1:Zone Air System Sensible Cooling Energy
+  BLOCK ONE STOREY STOREY 0:Zone Air System Sensible Heating Energy
+  BLOCK ONE STOREY STOREY 0:Zone Air System Sensible Cooling Energy
+
+ For Meter=EnergyTransfer:Building [J], ResourceType=EnergyTransfer, Group=Building, contents are:
+  BLOCK TWO STOREY STOREY 0:Zone Air System Sensible Heating Energy
+  BLOCK TWO STOREY STOREY 0:Zone Air System Sensible Cooling Energy
+  BLOCK TWO STOREY STOREY 1:Zone Air System Sensible Heating Energy
+  BLOCK TWO STOREY STOREY 1:Zone Air System Sensible Cooling Energy
+  BLOCK ONE STOREY STOREY 0:Zone Air System Sensible Heating Energy
+  BLOCK ONE STOREY STOREY 0:Zone Air System Sensible Cooling Energy
+
+ For Meter=EnergyTransfer:Zone:BLOCK TWO STOREY STOREY 0 [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  BLOCK TWO STOREY STOREY 0:Zone Air System Sensible Heating Energy
+  BLOCK TWO STOREY STOREY 0:Zone Air System Sensible Cooling Energy
+
+ For Meter=Heating:EnergyTransfer [J], ResourceType=EnergyTransfer, EndUse=Heating, contents are:
+  BLOCK TWO STOREY STOREY 0:Zone Air System Sensible Heating Energy
+  BLOCK TWO STOREY STOREY 1:Zone Air System Sensible Heating Energy
+  BLOCK ONE STOREY STOREY 0:Zone Air System Sensible Heating Energy
+
+ For Meter=Heating:EnergyTransfer:Zone:BLOCK TWO STOREY STOREY 0 [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  BLOCK TWO STOREY STOREY 0:Zone Air System Sensible Heating Energy
+
+ For Meter=General:Heating:EnergyTransfer [J], ResourceType=EnergyTransfer, EndUse=Heating, contents are:
+  BLOCK TWO STOREY STOREY 0:Zone Air System Sensible Heating Energy
+  BLOCK TWO STOREY STOREY 1:Zone Air System Sensible Heating Energy
+  BLOCK ONE STOREY STOREY 0:Zone Air System Sensible Heating Energy
+
+ For Meter=General:Heating:EnergyTransfer:Zone:BLOCK TWO STOREY STOREY 0 [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  BLOCK TWO STOREY STOREY 0:Zone Air System Sensible Heating Energy
+
+ For Meter=Cooling:EnergyTransfer [J], ResourceType=EnergyTransfer, EndUse=Cooling, contents are:
+  BLOCK TWO STOREY STOREY 0:Zone Air System Sensible Cooling Energy
+  BLOCK TWO STOREY STOREY 1:Zone Air System Sensible Cooling Energy
+  BLOCK ONE STOREY STOREY 0:Zone Air System Sensible Cooling Energy
+
+ For Meter=Cooling:EnergyTransfer:Zone:BLOCK TWO STOREY STOREY 0 [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  BLOCK TWO STOREY STOREY 0:Zone Air System Sensible Cooling Energy
+
+ For Meter=General:Cooling:EnergyTransfer [J], ResourceType=EnergyTransfer, EndUse=Cooling, contents are:
+  BLOCK TWO STOREY STOREY 0:Zone Air System Sensible Cooling Energy
+  BLOCK TWO STOREY STOREY 1:Zone Air System Sensible Cooling Energy
+  BLOCK ONE STOREY STOREY 0:Zone Air System Sensible Cooling Energy
+
+ For Meter=General:Cooling:EnergyTransfer:Zone:BLOCK TWO STOREY STOREY 0 [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  BLOCK TWO STOREY STOREY 0:Zone Air System Sensible Cooling Energy
+
+ For Meter=EnergyTransfer:Zone:BLOCK TWO STOREY STOREY 1 [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  BLOCK TWO STOREY STOREY 1:Zone Air System Sensible Heating Energy
+  BLOCK TWO STOREY STOREY 1:Zone Air System Sensible Cooling Energy
+
+ For Meter=Heating:EnergyTransfer:Zone:BLOCK TWO STOREY STOREY 1 [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  BLOCK TWO STOREY STOREY 1:Zone Air System Sensible Heating Energy
+
+ For Meter=General:Heating:EnergyTransfer:Zone:BLOCK TWO STOREY STOREY 1 [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  BLOCK TWO STOREY STOREY 1:Zone Air System Sensible Heating Energy
+
+ For Meter=Cooling:EnergyTransfer:Zone:BLOCK TWO STOREY STOREY 1 [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  BLOCK TWO STOREY STOREY 1:Zone Air System Sensible Cooling Energy
+
+ For Meter=General:Cooling:EnergyTransfer:Zone:BLOCK TWO STOREY STOREY 1 [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  BLOCK TWO STOREY STOREY 1:Zone Air System Sensible Cooling Energy
+
+ For Meter=EnergyTransfer:Zone:BLOCK ONE STOREY STOREY 0 [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  BLOCK ONE STOREY STOREY 0:Zone Air System Sensible Heating Energy
+  BLOCK ONE STOREY STOREY 0:Zone Air System Sensible Cooling Energy
+
+ For Meter=Heating:EnergyTransfer:Zone:BLOCK ONE STOREY STOREY 0 [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  BLOCK ONE STOREY STOREY 0:Zone Air System Sensible Heating Energy
+
+ For Meter=General:Heating:EnergyTransfer:Zone:BLOCK ONE STOREY STOREY 0 [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  BLOCK ONE STOREY STOREY 0:Zone Air System Sensible Heating Energy
+
+ For Meter=Cooling:EnergyTransfer:Zone:BLOCK ONE STOREY STOREY 0 [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  BLOCK ONE STOREY STOREY 0:Zone Air System Sensible Cooling Energy
+
+ For Meter=General:Cooling:EnergyTransfer:Zone:BLOCK ONE STOREY STOREY 0 [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  BLOCK ONE STOREY STOREY 0:Zone Air System Sensible Cooling Energy
+
+ For Meter=DistrictHeatingWater:Facility [J], ResourceType=DistrictHeatingWater, contents are:
+  BLOCK TWO STOREY STOREY 0 IDEAL LOADS AIR SYSTEM:Zone Ideal Loads Supply Air Total Heating Energy
+  BLOCK TWO STOREY STOREY 1 IDEAL LOADS AIR SYSTEM:Zone Ideal Loads Supply Air Total Heating Energy
+  BLOCK ONE STOREY STOREY 0 IDEAL LOADS AIR SYSTEM:Zone Ideal Loads Supply Air Total Heating Energy
+
+ For Meter=DistrictHeatingWater:HVAC [J], ResourceType=DistrictHeatingWater, Group=HVAC, contents are:
+  BLOCK TWO STOREY STOREY 0 IDEAL LOADS AIR SYSTEM:Zone Ideal Loads Supply Air Total Heating Energy
+  BLOCK TWO STOREY STOREY 1 IDEAL LOADS AIR SYSTEM:Zone Ideal Loads Supply Air Total Heating Energy
+  BLOCK ONE STOREY STOREY 0 IDEAL LOADS AIR SYSTEM:Zone Ideal Loads Supply Air Total Heating Energy
+
+ For Meter=Heating:DistrictHeatingWater [J], ResourceType=DistrictHeatingWater, EndUse=Heating, contents are:
+  BLOCK TWO STOREY STOREY 0 IDEAL LOADS AIR SYSTEM:Zone Ideal Loads Supply Air Total Heating Energy
+  BLOCK TWO STOREY STOREY 1 IDEAL LOADS AIR SYSTEM:Zone Ideal Loads Supply Air Total Heating Energy
+  BLOCK ONE STOREY STOREY 0 IDEAL LOADS AIR SYSTEM:Zone Ideal Loads Supply Air Total Heating Energy
+
+ For Meter=General:Heating:DistrictHeatingWater [J], ResourceType=DistrictHeatingWater, EndUse=Heating, contents are:
+  BLOCK TWO STOREY STOREY 0 IDEAL LOADS AIR SYSTEM:Zone Ideal Loads Supply Air Total Heating Energy
+  BLOCK TWO STOREY STOREY 1 IDEAL LOADS AIR SYSTEM:Zone Ideal Loads Supply Air Total Heating Energy
+  BLOCK ONE STOREY STOREY 0 IDEAL LOADS AIR SYSTEM:Zone Ideal Loads Supply Air Total Heating Energy
+
+ For Meter=DistrictCooling:Facility [J], ResourceType=DistrictCooling, contents are:
+  BLOCK TWO STOREY STOREY 0 IDEAL LOADS AIR SYSTEM:Zone Ideal Loads Supply Air Total Cooling Energy
+  BLOCK TWO STOREY STOREY 1 IDEAL LOADS AIR SYSTEM:Zone Ideal Loads Supply Air Total Cooling Energy
+  BLOCK ONE STOREY STOREY 0 IDEAL LOADS AIR SYSTEM:Zone Ideal Loads Supply Air Total Cooling Energy
+
+ For Meter=DistrictCooling:HVAC [J], ResourceType=DistrictCooling, Group=HVAC, contents are:
+  BLOCK TWO STOREY STOREY 0 IDEAL LOADS AIR SYSTEM:Zone Ideal Loads Supply Air Total Cooling Energy
+  BLOCK TWO STOREY STOREY 1 IDEAL LOADS AIR SYSTEM:Zone Ideal Loads Supply Air Total Cooling Energy
+  BLOCK ONE STOREY STOREY 0 IDEAL LOADS AIR SYSTEM:Zone Ideal Loads Supply Air Total Cooling Energy
+
+ For Meter=Cooling:DistrictCooling [J], ResourceType=DistrictCooling, EndUse=Cooling, contents are:
+  BLOCK TWO STOREY STOREY 0 IDEAL LOADS AIR SYSTEM:Zone Ideal Loads Supply Air Total Cooling Energy
+  BLOCK TWO STOREY STOREY 1 IDEAL LOADS AIR SYSTEM:Zone Ideal Loads Supply Air Total Cooling Energy
+  BLOCK ONE STOREY STOREY 0 IDEAL LOADS AIR SYSTEM:Zone Ideal Loads Supply Air Total Cooling Energy
+
+ For Meter=General:Cooling:DistrictCooling [J], ResourceType=DistrictCooling, EndUse=Cooling, contents are:
+  BLOCK TWO STOREY STOREY 0 IDEAL LOADS AIR SYSTEM:Zone Ideal Loads Supply Air Total Cooling Energy
+  BLOCK TWO STOREY STOREY 1 IDEAL LOADS AIR SYSTEM:Zone Ideal Loads Supply Air Total Cooling Energy
+  BLOCK ONE STOREY STOREY 0 IDEAL LOADS AIR SYSTEM:Zone Ideal Loads Supply Air Total Cooling Energy
+
+ For Meter=Carbon Equivalent:Facility [kg], ResourceType=Carbon Equivalent, contents are:
+  Site:Environmental Impact Total N2O Emissions Carbon Equivalent Mass
+  Site:Environmental Impact Total CH4 Emissions Carbon Equivalent Mass
+  Site:Environmental Impact Total CO2 Emissions Carbon Equivalent Mass
+
+ For Meter=CarbonEquivalentEmissions:Carbon Equivalent [kg], ResourceType=Carbon Equivalent, EndUse=CarbonEquivalentEmissions, contents are:
+  Site:Environmental Impact Total N2O Emissions Carbon Equivalent Mass
+  Site:Environmental Impact Total CH4 Emissions Carbon Equivalent Mass
+  Site:Environmental Impact Total CO2 Emissions Carbon Equivalent Mass
