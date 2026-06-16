@@ -128,10 +128,10 @@ if __name__ == '__main__':
     total_cases = list(itertools.product(north_axis_values, 
                                    shade_pf, shgc_values, u_values))
     
-    # cases = total_cases
+    cases = total_cases
 
     # sample of cases
-    cases = random.sample(total_cases,4)
+    # cases = random.sample(total_cases,4)
 
     print(f"Running {len(cases)} cases on {cpu_count()} CPU cores...")
 
