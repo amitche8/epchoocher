@@ -1,0 +1,8 @@
+{
+    "north_axis": 10,
+    "projection_factor": 0.25,
+    "shgc": 0.45,
+    "u_factor": 2.5,
+    "cooling": 151.47,
+    "heating": 2449.61
+}

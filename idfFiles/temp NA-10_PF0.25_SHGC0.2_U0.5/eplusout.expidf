@@ -1,0 +1,913 @@
+!- Windows Line endings
+
+Version,
+    25.1;                     !- Version Identifier
+
+SimulationControl,
+    Yes,                      !- Do Zone Sizing Calculation
+    Yes,                      !- Do System Sizing Calculation
+    Yes,                      !- Do Plant Sizing Calculation
+    Yes,                      !- Run Simulation for Sizing Periods
+    Yes,                      !- Run Simulation for Weather File Run Periods
+    No,                       !- Do HVAC Sizing Simulation for Sizing Periods
+    1;                        !- Maximum Number of HVAC Sizing Simulation Passes
+
+Building,
+    None,                     !- Name
+    -10,                      !- North Axis
+    Suburbs,                  !- Terrain
+    0.04,                     !- Loads Convergence Tolerance Value
+    0.4,                      !- Temperature Convergence Tolerance Value
+    FullInteriorAndExterior,    !- Solar Distribution
+    25,                       !- Maximum Number of Warmup Days
+    6;                        !- Minimum Number of Warmup Days
+
+ShadowCalculation,
+    PixelCounting,            !- Shading Calculation Method
+    Periodic,                 !- Shading Calculation Update Frequency Method
+    20,                       !- Shading Calculation Update Frequency
+    15000,                    !- Maximum Figures in Shadow Overlap Calculations
+    SutherlandHodgman,        !- Polygon Clipping Algorithm
+    512,                      !- Pixel Counting Resolution
+    SimpleSkyDiffuseModeling,    !- Sky Diffuse Modeling Algorithm
+    No,                       !- Output External Shading Calculation Results
+    No,                       !- Disable SelfShading Within Shading Zone Groups
+    No;                       !- Disable SelfShading From Shading Zone Groups to Other Zones
+
+HeatBalanceAlgorithm,
+    ConductionTransferFunction,    !- Algorithm
+    200,                      !- Surface Temperature Upper Limit
+    0.1,                      !- Minimum Surface Convection Heat Transfer Coefficient Value
+    1000;                     !- Maximum Surface Convection Heat Transfer Coefficient Value
+
+Timestep,
+    60;                       !- Number of Timesteps per Hour
+
+Site:Location,
+    Chicago Midway Ap_IL_USA Design_Conditions,    !- Name
+    41.78,                    !- Latitude
+    -87.75,                   !- Longitude
+    -6,                       !- Time Zone
+    186;                      !- Elevation
+
+SizingPeriod:DesignDay,
+    Chicago Midway Ap Ann Htg 99.6% Condns DB,    !- Name
+    1,                        !- Month
+    21,                       !- Day of Month
+    WinterDesignDay,          !- Day Type
+    -18.7,                    !- Maximum DryBulb Temperature
+    0,                        !- Daily DryBulb Temperature Range
+    DefaultMultipliers,       !- DryBulb Temperature Range Modifier Type
+    ,                         !- DryBulb Temperature Range Modifier Day Schedule Name
+    Wetbulb,                  !- Humidity Condition Type
+    -18.7,                    !- Wetbulb or DewPoint at Maximum DryBulb
+    ,                         !- Humidity Condition Day Schedule Name
+    ,                         !- Humidity Ratio at Maximum DryBulb
+    ,                         !- Enthalpy at Maximum DryBulb
+    ,                         !- Daily WetBulb Temperature Range
+    99110,                    !- Barometric Pressure
+    5.3,                      !- Wind Speed
+    300,                      !- Wind Direction
+    No,                       !- Rain Indicator
+    No,                       !- Snow Indicator
+    No,                       !- Daylight Saving Time Indicator
+    ASHRAEClearSky,           !- Solar Model Indicator
+    ,                         !- Beam Solar Day Schedule Name
+    ,                         !- Diffuse Solar Day Schedule Name
+    ,                         !- ASHRAE Clear Sky Optical Depth for Beam Irradiance taub
+    ,                         !- ASHRAE Clear Sky Optical Depth for Diffuse Irradiance taud
+    0;                        !- Sky Clearness
+
+SizingPeriod:DesignDay,
+    Chicago Midway Ap Ann Htg 99% Condns DB,    !- Name
+    1,                        !- Month
+    21,                       !- Day of Month
+    WinterDesignDay,          !- Day Type
+    -15.4,                    !- Maximum DryBulb Temperature
+    0,                        !- Daily DryBulb Temperature Range
+    DefaultMultipliers,       !- DryBulb Temperature Range Modifier Type
+    ,                         !- DryBulb Temperature Range Modifier Day Schedule Name
+    Wetbulb,                  !- Humidity Condition Type
+    -15.4,                    !- Wetbulb or DewPoint at Maximum DryBulb
+    ,                         !- Humidity Condition Day Schedule Name
+    ,                         !- Humidity Ratio at Maximum DryBulb
+    ,                         !- Enthalpy at Maximum DryBulb
+    ,                         !- Daily WetBulb Temperature Range
+    99110,                    !- Barometric Pressure
+    5.3,                      !- Wind Speed
+    300,                      !- Wind Direction
+    No,                       !- Rain Indicator
+    No,                       !- Snow Indicator
+    No,                       !- Daylight Saving Time Indicator
+    ASHRAEClearSky,           !- Solar Model Indicator
+    ,                         !- Beam Solar Day Schedule Name
+    ,                         !- Diffuse Solar Day Schedule Name
+    ,                         !- ASHRAE Clear Sky Optical Depth for Beam Irradiance taub
+    ,                         !- ASHRAE Clear Sky Optical Depth for Diffuse Irradiance taud
+    0;                        !- Sky Clearness
+
+SizingPeriod:DesignDay,
+    Chicago Midway Ap Ann Clg .4% Condns DB=>MWB,    !- Name
+    7,                        !- Month
+    21,                       !- Day of Month
+    SummerDesignDay,          !- Day Type
+    33.4,                     !- Maximum DryBulb Temperature
+    8.8,                      !- Daily DryBulb Temperature Range
+    DefaultMultipliers,       !- DryBulb Temperature Range Modifier Type
+    ,                         !- DryBulb Temperature Range Modifier Day Schedule Name
+    Wetbulb,                  !- Humidity Condition Type
+    23.8,                     !- Wetbulb or DewPoint at Maximum DryBulb
+    ,                         !- Humidity Condition Day Schedule Name
+    ,                         !- Humidity Ratio at Maximum DryBulb
+    ,                         !- Enthalpy at Maximum DryBulb
+    ,                         !- Daily WetBulb Temperature Range
+    99110,                    !- Barometric Pressure
+    5.6,                      !- Wind Speed
+    220,                      !- Wind Direction
+    No,                       !- Rain Indicator
+    No,                       !- Snow Indicator
+    No,                       !- Daylight Saving Time Indicator
+    ASHRAETau,                !- Solar Model Indicator
+    ,                         !- Beam Solar Day Schedule Name
+    ,                         !- Diffuse Solar Day Schedule Name
+    0.457,                    !- ASHRAE Clear Sky Optical Depth for Beam Irradiance taub
+    2.043;                    !- ASHRAE Clear Sky Optical Depth for Diffuse Irradiance taud
+
+SizingPeriod:DesignDay,
+    Chicago Midway Ap Ann Clg 1% Condns DB=>MWB,    !- Name
+    7,                        !- Month
+    21,                       !- Day of Month
+    SummerDesignDay,          !- Day Type
+    32,                       !- Maximum DryBulb Temperature
+    8.8,                      !- Daily DryBulb Temperature Range
+    DefaultMultipliers,       !- DryBulb Temperature Range Modifier Type
+    ,                         !- DryBulb Temperature Range Modifier Day Schedule Name
+    Wetbulb,                  !- Humidity Condition Type
+    23,                       !- Wetbulb or DewPoint at Maximum DryBulb
+    ,                         !- Humidity Condition Day Schedule Name
+    ,                         !- Humidity Ratio at Maximum DryBulb
+    ,                         !- Enthalpy at Maximum DryBulb
+    ,                         !- Daily WetBulb Temperature Range
+    99110,                    !- Barometric Pressure
+    5.6,                      !- Wind Speed
+    220,                      !- Wind Direction
+    No,                       !- Rain Indicator
+    No,                       !- Snow Indicator
+    No,                       !- Daylight Saving Time Indicator
+    ASHRAETau,                !- Solar Model Indicator
+    ,                         !- Beam Solar Day Schedule Name
+    ,                         !- Diffuse Solar Day Schedule Name
+    0.457,                    !- ASHRAE Clear Sky Optical Depth for Beam Irradiance taub
+    2.043;                    !- ASHRAE Clear Sky Optical Depth for Diffuse Irradiance taud
+
+RunPeriod,
+    Run Period 1,             !- Name
+    1,                        !- Begin Month
+    1,                        !- Begin Day of Month
+    ,                         !- Begin Year
+    12,                       !- End Month
+    31,                       !- End Day of Month
+    ,                         !- End Year
+    Tuesday,                  !- Day of Week for Start Day
+    Yes,                      !- Use Weather File Holidays and Special Days
+    Yes,                      !- Use Weather File Daylight Saving Period
+    No,                       !- Apply Weekend Holiday Rule
+    Yes,                      !- Use Weather File Rain Indicators
+    Yes;                      !- Use Weather File Snow Indicators
+! 
+! Site:GroundTemperature:BuildingSurface,
+!     7.7,                      !- January Ground Temperature
+!     3.2,                      !- February Ground Temperature
+!     1.1,                      !- March Ground Temperature
+!     1,                        !- April Ground Temperature
+!     4.4,                      !- May Ground Temperature
+!     9.4,                      !- June Ground Temperature
+!     14.7,                     !- July Ground Temperature
+!     19.2,                     !- August Ground Temperature
+!     21.6,                     !- September Ground Temperature
+!     21.2,                     !- October Ground Temperature
+!     18,                       !- November Ground Temperature
+!     13.2;                     !- December Ground Temperature
+
+ScheduleTypeLimits,
+    AnyNumber,                !- Name
+    0,                        !- Lower Limit Value
+    ,                         !- Upper Limit Value
+    Continuous,               !- Numeric Type
+    Dimensionless;            !- Unit Type
+
+Schedule:Constant,
+    AlwaysOn,                 !- Name
+    AnyNumber,                !- Schedule Type Limits Name
+    1;                        !- Hourly Value
+
+Schedule:Constant,
+    OccActivitySchedule,      !- Name
+    AnyNumber,                !- Schedule Type Limits Name
+    100;                      !- Hourly Value
+
+Material,
+    Wood subfloor - 19mm,     !- Name
+    MediumSmooth,             !- Roughness
+    0.019,                    !- Thickness
+    0.115,                    !- Conductivity
+    800,                      !- Density
+    1380;                     !- Specific Heat
+
+Material,
+    Insulation: Expanded polystyrene - extruded (smooth skin surface) (CFC-12 exp.),    !- Name
+    MediumSmooth,             !- Roughness
+    0.025,                    !- Thickness
+    0.029,                    !- Conductivity
+    29,                       !- Density
+    1210;                     !- Specific Heat
+
+Material,
+    Concrete Block: Sand and Gravel Aggregrate: 15-16 kg - 2 or 3 cores - vermiculite filled cores,    !- Name
+    MediumRough,              !- Roughness
+    0.2,                      !- Thickness
+    1.13,                     !- Conductivity
+    2180,                     !- Density
+    920;                      !- Specific Heat
+
+Material,
+    Insulation: Glass fiber - organic bonded - 25mm,    !- Name
+    MediumRough,              !- Roughness
+    0.025,                    !- Thickness
+    0.036,                    !- Conductivity
+    64,                       !- Density
+    960;                      !- Specific Heat
+
+Material,
+    Plywood (Douglas Fir) - 15.9mm,    !- Name
+    Smooth,                   !- Roughness
+    0.0159,                   !- Thickness
+    0.12,                     !- Conductivity
+    540,                      !- Density
+    1210;                     !- Specific Heat
+
+Material,
+    M14a 100mm heavyweight concrete,    !- Name
+    MediumRough,              !- Roughness
+    0.1016,                   !- Thickness
+    1.95,                     !- Conductivity
+    2240,                     !- Density
+    900;                      !- Specific Heat
+
+Material,
+    M14 150mm heavyweight concrete,    !- Name
+    MediumRough,              !- Roughness
+    0.1524,                   !- Thickness
+    1.95,                     !- Conductivity
+    2240,                     !- Density
+    900;                      !- Specific Heat
+
+Material,
+    M15 200mm heavyweight concrete,    !- Name
+    MediumRough,              !- Roughness
+    0.2032,                   !- Thickness
+    1.95,                     !- Conductivity
+    2240,                     !- Density
+    900;                      !- Specific Heat
+
+Material,
+    I05 154mm batt insulation,    !- Name
+    VeryRough,                !- Roughness
+    0.1544,                   !- Thickness
+    0.05,                     !- Conductivity
+    19,                       !- Density
+    960;                      !- Specific Heat
+
+Material,
+    I04 89mm batt insulation,    !- Name
+    VeryRough,                !- Roughness
+    0.0894,                   !- Thickness
+    0.05,                     !- Conductivity
+    19,                       !- Density
+    960;                      !- Specific Heat
+
+Material,
+    I01 25mm insulation board,    !- Name
+    MediumRough,              !- Roughness
+    0.0254,                   !- Thickness
+    0.03,                     !- Conductivity
+    43,                       !- Density
+    1210;                     !- Specific Heat
+
+Material,
+    I02 50mm insulation board,    !- Name
+    MediumRough,              !- Roughness
+    0.0508,                   !- Thickness
+    0.03,                     !- Conductivity
+    43,                       !- Density
+    1210;                     !- Specific Heat
+
+Material,
+    G06 50mm wood,            !- Name
+    MediumSmooth,             !- Roughness
+    0.0508,                   !- Thickness
+    0.15,                     !- Conductivity
+    608,                      !- Density
+    1630;                     !- Specific Heat
+
+Material,
+    G01 16mm gypsum board,    !- Name
+    MediumSmooth,             !- Roughness
+    0.0159,                   !- Thickness
+    0.16,                     !- Conductivity
+    800,                      !- Density
+    1090;                     !- Specific Heat
+
+Material,
+    G01a 19mm gypsum board,    !- Name
+    MediumSmooth,             !- Roughness
+    0.019,                    !- Thickness
+    0.16,                     !- Conductivity
+    800,                      !- Density
+    1090;                     !- Specific Heat
+
+Material,
+    F18 Terrazzo,             !- Name
+    Rough,                    !- Roughness
+    0.0254,                   !- Thickness
+    1.8,                      !- Conductivity
+    2560,                     !- Density
+    790;                      !- Specific Heat
+
+Material,
+    F13 Built-up roofing,     !- Name
+    Rough,                    !- Roughness
+    0.0095,                   !- Thickness
+    0.16,                     !- Conductivity
+    1120,                     !- Density
+    1460;                     !- Specific Heat
+
+Material,
+    F11 Wood siding,          !- Name
+    MediumSmooth,             !- Roughness
+    0.0127,                   !- Thickness
+    0.09,                     !- Conductivity
+    592,                      !- Density
+    1170;                     !- Specific Heat
+
+Material:NoMass,
+    ParametricWallIInsulation,    !- Name
+    MediumSmooth,             !- Roughness
+    0.88055097130936,         !- Thermal Resistance
+    0.9,                      !- Thermal Absorptance
+    0.7,                      !- Solar Absorptance
+    0.7;                      !- Visible Absorptance
+
+Material:NoMass,
+    ParametricRoofInsulation,    !- Name
+    MediumSmooth,             !- Roughness
+    0.88055097130936,         !- Thermal Resistance
+    0.9,                      !- Thermal Absorptance
+    0.7,                      !- Solar Absorptance
+    0.7;                      !- Visible Absorptance
+
+Material:NoMass,
+    ParametricSlabInsulation,    !- Name
+    MediumSmooth,             !- Roughness
+    0.88055097130936,         !- Thermal Resistance
+    0.9,                      !- Thermal Absorptance
+    0.7,                      !- Solar Absorptance
+    0.7;                      !- Visible Absorptance
+
+Material:AirGap,
+    F04 Wall air space resistance,    !- Name
+    0.15;                     !- Thermal Resistance
+
+Material:AirGap,
+    F05 Ceiling air space resistance,    !- Name
+    0.18;                     !- Thermal Resistance
+
+WindowMaterial:SimpleGlazingSystem,
+    ParametricWindow,         !- Name
+    0.5,                      !- UFactor
+    0.2;                      !- Solar Heat Gain Coefficient
+
+Construction,
+    ExtWall,                  !- Name
+    F11 Wood siding,          !- Outside Layer
+    ParametricWallIInsulation,    !- Layer 2
+    Plywood (Douglas Fir) - 15.9mm,    !- Layer 3
+    I04 89mm batt insulation,    !- Layer 4
+    G01a 19mm gypsum board;    !- Layer 5
+
+Construction,
+    ExtRoof,                  !- Name
+    F13 Built-up roofing,     !- Outside Layer
+    ParametricRoofInsulation,    !- Layer 2
+    Plywood (Douglas Fir) - 15.9mm,    !- Layer 3
+    I05 154mm batt insulation,    !- Layer 4
+    G01a 19mm gypsum board;    !- Layer 5
+
+Construction,
+    ExtSlab,                  !- Name
+    ParametricSlabInsulation,    !- Outside Layer
+    M14a 100mm heavyweight concrete;    !- Layer 2
+
+Construction,
+    ExtWindow,                !- Name
+    ParametricWindow;         !- Outside Layer
+
+Construction,
+    ExtDoor,                  !- Name
+    Plywood (Douglas Fir) - 15.9mm,    !- Outside Layer
+    I01 25mm insulation board,    !- Layer 2
+    Plywood (Douglas Fir) - 15.9mm;    !- Layer 3
+
+GlobalGeometryRules,
+    UpperLeftCorner,          !- Starting Vertex Position
+    CounterClockWise,         !- Vertex Entry Direction
+    World;                    !- Coordinate System
+
+Zone,
+    LivingZone,               !- Name
+    ,                         !- Direction of Relative North
+    ,                         !- X Origin
+    ,                         !- Y Origin
+    ,                         !- Z Origin
+    1,                        !- Type
+    1,                        !- Multiplier
+    autocalculate,            !- Ceiling Height
+    autocalculate,            !- Volume
+    autocalculate,            !- Floor Area
+    ,                         !- Zone Inside Convection Algorithm
+    ,                         !- Zone Outside Convection Algorithm
+    Yes;                      !- Part of Total Floor Area
+
+Wall:Exterior,
+    SouthWall,                !- Name
+    ExtWall,                  !- Construction Name
+    LivingZone,               !- Zone Name
+    ,                         !- Space Name
+    180,                      !- Azimuth Angle
+    90,                       !- Tilt Angle
+    0,                        !- Starting X Coordinate
+    0,                        !- Starting Y Coordinate
+    0,                        !- Starting Z Coordinate
+    12.192,                   !- Length
+    3.6576;                   !- Height
+
+Wall:Exterior,
+    WestWall,                 !- Name
+    ExtWall,                  !- Construction Name
+    LivingZone,               !- Zone Name
+    ,                         !- Space Name
+    90,                       !- Azimuth Angle
+    90,                       !- Tilt Angle
+    12.192,                   !- Starting X Coordinate
+    0,                        !- Starting Y Coordinate
+    0,                        !- Starting Z Coordinate
+    7.62000000000001,         !- Length
+    3.6576;                   !- Height
+
+Wall:Exterior,
+    NorthWall,                !- Name
+    ExtWall,                  !- Construction Name
+    LivingZone,               !- Zone Name
+    ,                         !- Space Name
+    0,                        !- Azimuth Angle
+    90,                       !- Tilt Angle
+    12.192,                   !- Starting X Coordinate
+    7.62000000000001,         !- Starting Y Coordinate
+    0,                        !- Starting Z Coordinate
+    12.192,                   !- Length
+    3.6576;                   !- Height
+
+Wall:Exterior,
+    EastWall,                 !- Name
+    ExtWall,                  !- Construction Name
+    LivingZone,               !- Zone Name
+    ,                         !- Space Name
+    270,                      !- Azimuth Angle
+    90,                       !- Tilt Angle
+    0,                        !- Starting X Coordinate
+    7.62000000000001,         !- Starting Y Coordinate
+    0,                        !- Starting Z Coordinate
+    7.62000000000001,         !- Length
+    3.6576;                   !- Height
+
+Roof,
+    ExtRoof,                  !- Name
+    ExtRoof,                  !- Construction Name
+    LivingZone,               !- Zone Name
+    ,                         !- Space Name
+    ,                         !- Azimuth Angle
+    ,                         !- Tilt Angle
+    12.192,                   !- Starting X Coordinate
+    7.62000000000001,         !- Starting Y Coordinate
+    3.6576,                   !- Starting Z Coordinate
+    12.192,                   !- Length
+    7.62000000000001;         !- Width
+
+Floor:GroundContact,
+    Slab,                     !- Name
+    ExtSlab,                  !- Construction Name
+    LivingZone,               !- Zone Name
+    ,                         !- Space Name
+    ,                         !- Azimuth Angle
+    180,                      !- Tilt Angle
+    12.192,                   !- Starting X Coordinate
+    0,                        !- Starting Y Coordinate
+    0,                        !- Starting Z Coordinate
+    12.192,                   !- Length
+    7.62000000000001;         !- Width
+
+Window,
+    NorthWindow1,             !- Name
+    ExtWindow,                !- Construction Name
+    NorthWall,                !- Building Surface Name
+    NorthWindowFrame,         !- Frame and Divider Name
+    1,                        !- Multiplier
+    9.14400000000001,         !- Starting X Coordinate
+    0.609600000000001,        !- Starting Z Coordinate
+    1.524,                    !- Length
+    2.1336;                   !- Height
+
+Window,
+    NorthWindow2,             !- Name
+    ExtWindow,                !- Construction Name
+    NorthWall,                !- Building Surface Name
+    NorthWindowFrame,         !- Frame and Divider Name
+    1,                        !- Multiplier
+    1.524,                    !- Starting X Coordinate
+    0.609600000000001,        !- Starting Z Coordinate
+    1.524,                    !- Length
+    2.1336;                   !- Height
+
+Window,
+    SouthWindow1,             !- Name
+    ExtWindow,                !- Construction Name
+    SouthWall,                !- Building Surface Name
+    SouthWindowFrame,         !- Frame and Divider Name
+    1,                        !- Multiplier
+    1.524,                    !- Starting X Coordinate
+    0.609600000000001,        !- Starting Z Coordinate
+    9.14400000000001,         !- Length
+    2.1336;                   !- Height
+
+Door,
+    ExtDoor1,                 !- Name
+    ExtDoor,                  !- Construction Name
+    EastWall,                 !- Building Surface Name
+    1,                        !- Multiplier
+    6.09600000000001,         !- Starting X Coordinate
+    0.3048,                   !- Starting Z Coordinate
+    0.914400000000001,        !- Length
+    2.1336;                   !- Height
+
+WindowProperty:FrameAndDivider,
+    NorthWindowFrame,         !- Name
+    0.0762000000000001,       !- Frame Width
+    0.0252984,                !- Frame Outside Projection
+    0.0252984,                !- Frame Inside Projection
+    1.7034789,                !- Frame Conductance
+    1,                        !- Ratio of FrameEdge Glass Conductance to CenterOfGlass Conductance
+    0.7,                      !- Frame Solar Absorptance
+    0.7,                      !- Frame Visible Absorptance
+    0.9,                      !- Frame Thermal Hemispherical Emissivity
+    DividedLite,              !- Divider Type
+    0,                        !- Divider Width
+    0,                        !- Number of Horizontal Dividers
+    0,                        !- Number of Vertical Dividers
+    0,                        !- Divider Outside Projection
+    0,                        !- Divider Inside Projection
+    0,                        !- Divider Conductance
+    1,                        !- Ratio of DividerEdge Glass Conductance to CenterOfGlass Conductance
+    ,                         !- Divider Solar Absorptance
+    ,                         !- Divider Visible Absorptance
+    0.9,                      !- Divider Thermal Hemispherical Emissivity
+    ,                         !- Outside Reveal Solar Absorptance
+    0.2033016,                !- Inside Sill Depth
+    ,                         !- Inside Sill Solar Absorptance
+    ,                         !- Inside Reveal Depth
+    ,                         !- Inside Reveal Solar Absorptance
+    CasementSingle;           !- NFRC Product Type for Assembly Calculations
+
+WindowProperty:FrameAndDivider,
+    SouthWindowFrame,         !- Name
+    0.0762000000000001,       !- Frame Width
+    0.0252984,                !- Frame Outside Projection
+    0.0252984,                !- Frame Inside Projection
+    1.7034789,                !- Frame Conductance
+    1,                        !- Ratio of FrameEdge Glass Conductance to CenterOfGlass Conductance
+    0.7,                      !- Frame Solar Absorptance
+    0.7,                      !- Frame Visible Absorptance
+    0.9,                      !- Frame Thermal Hemispherical Emissivity
+    DividedLite,              !- Divider Type
+    0.0914400000000001,       !- Divider Width
+    0,                        !- Number of Horizontal Dividers
+    5,                        !- Number of Vertical Dividers
+    0.0252984,                !- Divider Outside Projection
+    0.0252984,                !- Divider Inside Projection
+    1.7034789,                !- Divider Conductance
+    1,                        !- Ratio of DividerEdge Glass Conductance to CenterOfGlass Conductance
+    ,                         !- Divider Solar Absorptance
+    ,                         !- Divider Visible Absorptance
+    0.9,                      !- Divider Thermal Hemispherical Emissivity
+    ,                         !- Outside Reveal Solar Absorptance
+    0.2033016,                !- Inside Sill Depth
+    ,                         !- Inside Sill Solar Absorptance
+    ,                         !- Inside Reveal Depth
+    ,                         !- Inside Reveal Solar Absorptance
+    Fixed;                    !- NFRC Product Type for Assembly Calculations
+
+Shading:Overhang:Projection,
+    SouthOverhang,            !- Name
+    SouthWindow1,             !- Window or Door Name
+    0.1524,                   !- Height above Window or Door
+    90,                       !- Tilt Angle from WindowDoor
+    0.3048,                   !- Left extension from WindowDoor Width
+    0.3048,                   !- Right extension from WindowDoor Width
+    0.25;                     !- Depth as Fraction of WindowDoor Height
+
+People,
+    Occupants,                !- Name
+    LivingZone,               !- Zone or ZoneList or Space or SpaceList Name
+    AlwaysOn,                 !- Number of People Schedule Name
+    People,                   !- Number of People Calculation Method
+    4,                        !- Number of People
+    ,                         !- People per Floor Area
+    ,                         !- Floor Area per Person
+    0.3,                      !- Fraction Radiant
+    autocalculate,            !- Sensible Heat Fraction
+    OccActivitySchedule,      !- Activity Level Schedule Name
+    3.82e-08,                 !- Carbon Dioxide Generation Rate
+    No,                       !- Enable ASHRAE 55 Comfort Warnings
+    EnclosureAveraged,        !- Mean Radiant Temperature Calculation Type
+    ,                         !- Surface NameAngle Factor List Name
+    ,                         !- Work Efficiency Schedule Name
+    ClothingInsulationSchedule,    !- Clothing Insulation Calculation Method
+    ,                         !- Clothing Insulation Calculation Method Schedule Name
+    ,                         !- Clothing Insulation Schedule Name
+    ,                         !- Air Velocity Schedule Name
+    ,                         !- Thermal Comfort Model 1 Type
+    ,                         !- Thermal Comfort Model 2 Type
+    ,                         !- Thermal Comfort Model 3 Type
+    ,                         !- Thermal Comfort Model 4 Type
+    ,                         !- Thermal Comfort Model 5 Type
+    ,                         !- Thermal Comfort Model 6 Type
+    ,                         !- Thermal Comfort Model 7 Type
+    ,                         !- Ankle Level Air Velocity Schedule Name
+    15.56,                    !- Cold Stress Temperature Threshold
+    30;                       !- Heat Stress Temperature Threshold
+
+Lights,
+    ZoneLights,               !- Name
+    LivingZone,               !- Zone or ZoneList or Space or SpaceList Name
+    AlwaysOn,                 !- Schedule Name
+    Watts/Area,               !- Design Level Calculation Method
+    ,                         !- Lighting Level
+    5.38195520835486,         !- Watts per Floor Area
+    ,                         !- Watts per Person
+    ,                         !- Return Air Fraction
+    0.2,                      !- Fraction Radiant
+    0.1,                      !- Fraction Visible
+    1,                        !- Fraction Replaceable
+    General,                  !- EndUse Subcategory
+    No;                       !- Return Air Fraction Calculated from Plenum Temperature
+
+ZoneInfiltration:DesignFlowRate,
+    ZoneInfiltration,         !- Name
+    LivingZone,               !- Zone or ZoneList or Space or SpaceList Name
+    AlwaysOn,                 !- Schedule Name
+    Flow/ExteriorArea,        !- Design Flow Rate Calculation Method
+    ,                         !- Design Flow Rate
+    ,                         !- Flow Rate per Floor Area
+    0.0002540005,             !- Flow Rate per Exterior Surface Area
+    ,                         !- Air Changes per Hour
+    1,                        !- Constant Term Coefficient
+    0,                        !- Temperature Term Coefficient
+    0.224,                    !- Velocity Term Coefficient
+    0,                        !- Velocity Squared Term Coefficient
+    Outdoor;                  !- Density Basis
+! 
+! HVACTemplate:Thermostat,
+!     ZoneThermostat,           !- Name
+!     ,                         !- Heating Setpoint Schedule Name
+!     21.1111111111111,         !- Constant Heating Setpoint
+!     ,                         !- Cooling Setpoint Schedule Name
+!     23.8888888888889;         !- Constant Cooling Setpoint
+! 
+! HVACTemplate:Zone:IdealLoadsAirSystem,
+!     LivingZone,               !- Zone Name
+!     ZoneThermostat,           !- Template Thermostat Name
+!     AlwaysOn,                 !- System Availability Schedule Name
+!     35,                       !- Maximum Heating Supply Air Temperature
+!     12.7777777777778,         !- Minimum Cooling Supply Air Temperature
+!     0.0156,                   !- Maximum Heating Supply Air Humidity Ratio
+!     0.0077,                   !- Minimum Cooling Supply Air Humidity Ratio
+!     NoLimit,                  !- Heating Limit
+!     ,                         !- Maximum Heating Air Flow Rate
+!     ,                         !- Maximum Sensible Heating Capacity
+!     NoLimit,                  !- Cooling Limit
+!     ,                         !- Maximum Cooling Air Flow Rate
+!     ,                         !- Maximum Total Cooling Capacity
+!     ,                         !- Heating Availability Schedule Name
+!     ,                         !- Cooling Availability Schedule Name
+!     ConstantSensibleHeatRatio,    !- Dehumidification Control Type
+!     0.7,                      !- Cooling Sensible Heat Ratio
+!     60,                       !- Dehumidification Setpoint
+!     None,                     !- Humidification Control Type
+!     30,                       !- Humidification Setpoint
+!     Flow/Zone,                !- Outdoor Air Method
+!     0.007079212,              !- Outdoor Air Flow Rate per Person
+!     ,                         !- Outdoor Air Flow Rate per Zone Floor Area
+!     0.0377557954560001,       !- Outdoor Air Flow Rate per Zone
+!     ,                         !- Design Specification Outdoor Air Object Name
+!     None,                     !- Demand Controlled Ventilation Type
+!     NoEconomizer,             !- Outdoor Air Economizer Type
+!     Enthalpy,                 !- Heat Recovery Type
+!     0.81,                     !- Sensible Heat Recovery Effectiveness
+!     0.65;                     !- Latent Heat Recovery Effectiveness
+
+Output:VariableDictionary,
+    Regular;                  !- Key Field
+
+Output:Surfaces:Drawing,
+    DXF,                      !- Report Type
+    ThickPolyline;            !- Report Specifications 1
+
+Output:Table:SummaryReports,
+    AllSummary;               !- Report 1 Name
+
+Output:Variable,
+    *,                        !- Key Value
+    Site Outdoor Air Drybulb Temperature,    !- Variable Name
+    Hourly;                   !- Reporting Frequency
+
+Output:Variable,
+    *,                        !- Key Value
+    Site Outdoor Air Dewpoint Temperature,    !- Variable Name
+    Hourly;                   !- Reporting Frequency
+
+Output:Variable,
+    *,                        !- Key Value
+    Site Direct Solar Radiation Rate per Area,    !- Variable Name
+    Hourly;                   !- Reporting Frequency
+
+Output:Variable,
+    *,                        !- Key Value
+    Site Diffuse Solar Radiation Rate per Area,    !- Variable Name
+    Hourly;                   !- Reporting Frequency
+
+Output:Variable,
+    *,                        !- Key Value
+    Zone Mean Air Temperature,    !- Variable Name
+    Hourly;                   !- Reporting Frequency
+
+Output:Variable,
+    *,                        !- Key Value
+    Zone Ideal Loads Supply Air Total Heating Rate,    !- Variable Name
+    Hourly;                   !- Reporting Frequency
+
+Output:Variable,
+    *,                        !- Key Value
+    Zone Ideal Loads Supply Air Total Cooling Rate,    !- Variable Name
+    Hourly;                   !- Reporting Frequency
+
+Output:JSON,
+    TimeSeriesAndTabular,     !- Option Type
+    Yes,                      !- Output JSON
+    No,                       !- Output CBOR
+    No;                       !- Output MessagePack
+! 
+! -------------------------------------------------------------
+! New objects created from ExpandObjects
+! -------------------------------------------------------------
+! 
+
+ScheduleTypeLimits,
+  HVACTemplate Any Number;                                 !- Name
+
+Schedule:Compact,
+  HVACTemplate-Always 21.1111111111111,                    !- Name
+  HVACTemplate Any Number,                                 !- Schedule Type Limits Name
+  Through: 12/31,                                          !- Field 1
+  For: AllDays,                                            !- Field 2
+  Until: 24:00,                                            !- Field 3
+  21.1111111111111;                                        !- Field 4
+
+Schedule:Compact,
+  HVACTemplate-Always 23.8888888888889,                    !- Name
+  HVACTemplate Any Number,                                 !- Schedule Type Limits Name
+  Through: 12/31,                                          !- Field 1
+  For: AllDays,                                            !- Field 2
+  Until: 24:00,                                            !- Field 3
+  23.8888888888889;                                        !- Field 4
+
+ThermostatSetpoint:DualSetpoint,
+  ZoneThermostat Dual SP Control,                          !- Name
+  HVACTemplate-Always 21.1111111111111,                    !- Heating Setpoint Temperature Schedule Name
+  HVACTemplate-Always 23.8888888888889;                    !- Cooling Setpoint Temperature Schedule Name
+
+Schedule:Compact,
+  HVACTemplate-Always 4,                                   !- Name
+  HVACTemplate Any Number,                                 !- Schedule Type Limits Name
+  Through: 12/31,                                          !- Field 1
+  For: AllDays,                                            !- Field 2
+  Until: 24:00,                                            !- Field 3
+  4;                                                       !- Field 4
+
+ZoneControl:Thermostat,
+  LivingZone Thermostat,                                   !- Name
+  LivingZone,                                              !- Zone or ZoneList Name
+  HVACTemplate-Always 4,                                   !- Control Type Schedule Name
+  ThermostatSetpoint:DualSetpoint,                         !- Control Object Type
+  ZoneThermostat Dual SP Control;                          !- Control Name
+
+DesignSpecification:OutdoorAir,
+  SZ DSOA LivingZone,                                      !- Name
+  Flow/Zone,                                               !- Outdoor Air Method
+  0.007079212,                                             !- Outdoor Air Flow per Person {m3/s}
+  0,                                                       !- Outdoor Air Flow per Zone Floor Area {m3/s-m2}
+  0.0377557954560001;                                      !- Outdoor Air Flow per Zone {m3/s}
+
+Sizing:Zone,
+  LivingZone,                                              !- Zone or ZoneList Name
+  SupplyAirTemperature,                                    !- Zone Cooling Design Supply Air Temperature Input Method
+  12.7777777777778,                                        !- Zone Cooling Design Supply Air Temperature {C}
+  ,                                                        !- Zone Cooling Design Supply Air Temperature Difference {delta C}
+  SupplyAirTemperature,                                    !- Zone Heating Design Supply Air Temperature Input Method
+  35,                                                      !- Zone Heating Design Supply Air Temperature {C}
+  ,                                                        !- Zone Heating Design Supply Air Temperature Difference {delta C}
+  0.0077,                                                  !- Zone Cooling Design Supply Air Humidity Ratio {kg-H20/kg-air}
+  0.0156,                                                  !- Zone Heating Design Supply Air Humidity Ratio {kg-H2O/kg-air}
+  SZ DSOA LivingZone,                                      !- Design Specification Outdoor Air Object Name
+  ,                                                        !- Zone Heating Sizing Factor
+  ,                                                        !- Zone Cooling Sizing Factor
+  DesignDay,                                               !- Cooling Design Air Flow Method
+  0,                                                       !- Cooling Design Air Flow Rate {m3/s}
+  ,                                                        !- Cooling Minimum Air Flow per Zone Floor Area {m3/s-m2}
+  ,                                                        !- Cooling Minimum Air Flow {m3/s}
+  0,                                                       !- Cooling Minimum Air Flow Fraction {}
+  DesignDay,                                               !- Heating Design Air Flow Method
+  0,                                                       !- Heating Design Air Flow Rate {m3/s}
+  ,                                                        !- Heating Maximum Air Flow per Zone Floor Area {m3/s-m2}
+  ,                                                        !- Heating Maximum Air Flow {m3/s}
+  0,                                                       !- Heating Maximum Air Flow Fraction {}
+  ;                                                        !- Design Specification Zone Air Distribution Object Name
+
+ZoneHVAC:EquipmentConnections,
+  LivingZone,                                              !- Zone Name
+  LivingZone Equipment,                                    !- Zone Conditioning Equipment List Name
+  LivingZone Ideal Loads Supply Inlet,                     !- Zone Air Inlet Node or NodeList Name
+  ,                                                        !- Zone Air Exhaust Node or NodeList Name
+  LivingZone Zone Air Node,                                !- Zone Air Node Name
+  LivingZone Return Outlet;                                !- Zone Return Air Node Name
+
+ZoneHVAC:EquipmentList,
+  LivingZone Equipment,                                    !- Name
+  SequentialLoad,                                          !- Load Distribution Scheme
+  ZoneHVAC:IdealLoadsAirSystem,                            !- Zone Equipment Object Type
+  LivingZone Ideal Loads Air System,                       !- Zone Equipment Name
+  1,                                                       !- Zone Equipment Cooling Sequence
+  1,                                                       !- Zone Equipment Heating or No-Load Sequence
+  ,                                                        !- Zone Equipment Sequential Cooling Fraction Schedule Name
+  ;                                                        !- Zone Equipment Sequential Heating Fraction Schedule Name
+
+ZoneHVAC:IdealLoadsAirSystem,
+  LivingZone Ideal Loads Air System,                       !- Name
+  AlwaysOn,                                                !- Availability Schedule Name
+  LivingZone Ideal Loads Supply Inlet,                     !- Zone Supply Air Node Name
+  ,                                                        !- Zone Exhaust Air Node Name
+  ,                                                        !- System Inlet Air Node Name
+  35,                                                      !- Maximum Heating Supply Air Temperature [C]
+  12.7777777777778,                                        !- Minimum Cooling Supply Air Temperature [C]
+  0.0156,                                                  !- Maximum Heating Supply Air Humidity Ratio [kg-H20/kg-air]
+  0.0077,                                                  !- Minimum Cooling Supply Air Humidity Ratio [kg-H20/kg-air]
+  NoLimit,                                                 !- Heating Limit
+  ,                                                        !- Maximum Heating Air Flow Rate {m3/s}
+  ,                                                        !- Maximum Sensible Heating Capacity {m3/s}
+  NoLimit,                                                 !- Cooling Limit
+  ,                                                        !- Maximum Cooling Air Flow Rate {m3/s}
+  ,                                                        !- Maximum Total Cooling Capacity {m3/s}
+  ,                                                        !- Heating Availability Schedule Name
+  ,                                                        !- Cooling Availability Schedule Name
+  ConstantSensibleHeatRatio,                               !- Dehumidification Control Type
+  0.7,                                                     !- Cooling Sensible Heat Ratio
+  None,                                                    !- Humidification Control Type
+  SZ DSOA LivingZone,                                      !- Design Specification Outdoor Air Object Name
+  LivingZone Ideal Loads Outdoor Air Inlet,                !- Outdoor Air Inlet Node Name
+  None,                                                    !- Demand Controlled Ventilation Type
+  NoEconomizer,                                            !- Outdoor Air Economizer Type
+  Enthalpy,                                                !- Heat Recovery Type
+  0.81,                                                    !- Sensible Heat Recovery Effectiveness
+  0.65;                                                    !- Latent Heat Recovery Effectiveness
+
+Site:GroundTemperature:BuildingSurface,
+  7.7,                                                     !- January Ground Temperature
+  3.2,                                                     !- February Ground Temperature
+  1.1,                                                     !- March Ground Temperature
+  1,                                                       !- April Ground Temperature
+  4.4,                                                     !- May Ground Temperature
+  9.4,                                                     !- June Ground Temperature
+  14.7,                                                    !- July Ground Temperature
+  19.2,                                                    !- August Ground Temperature
+  21.6,                                                    !- September Ground Temperature
+  21.2,                                                    !- October Ground Temperature
+  18,                                                      !- November Ground Temperature
+  13.2;                                                    !- December Ground Temperature

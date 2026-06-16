@@ -77,7 +77,7 @@ HeatBalanceAlgorithm,
 !-   ===========  ALL OBJECTS IN CLASS: TIMESTEP ===========
 
 Timestep,
-    4;                       !- Number of Timesteps per Hour
+    60;                      !- Number of Timesteps per Hour
 
 
 !-   ===========  ALL OBJECTS IN CLASS: SITE:LOCATION ===========
@@ -852,15 +852,7 @@ Output:Surfaces:Drawing,
 !-   ===========  ALL OBJECTS IN CLASS: OUTPUT:TABLE:SUMMARYREPORTS ===========
 
 Output:Table:SummaryReports,
-    AllSummary,              !- Report 1 Name
-    AllMonthly;              !- Report 2 Name
-
-
-!-   ===========  ALL OBJECTS IN CLASS: OUTPUTCONTROL:TABLE:STYLE ===========
-
-OutputControl:Table:Style,
-    HTML,                    !- Column Separator
-    None;                    !- Unit Conversion
+    AllSummary;              !- Report 1 Name
 
 
 !-   ===========  ALL OBJECTS IN CLASS: OUTPUT:VARIABLE ===========
@@ -873,27 +865,17 @@ Output:Variable,
 Output:Variable,
     *,                       !- Key Value
     Site Outdoor Air Dewpoint Temperature,  !- Variable Name
-    Timestep;                !- Reporting Frequency
-
-Output:Variable,
-    *,                       !- Key Value
-    Site Solar Azimuth Angle,!- Variable Name
-    Timestep;                !- Reporting Frequency
-
-Output:Variable,
-    *,                       !- Key Value
-    Site Solar Altitude Angle,  !- Variable Name
-    Timestep;                !- Reporting Frequency
+    Hourly;                  !- Reporting Frequency
 
 Output:Variable,
     *,                       !- Key Value
     Site Direct Solar Radiation Rate per Area,  !- Variable Name
-    Timestep;                !- Reporting Frequency
+    Hourly;                  !- Reporting Frequency
 
 Output:Variable,
     *,                       !- Key Value
     Site Diffuse Solar Radiation Rate per Area,  !- Variable Name
-    Timestep;                !- Reporting Frequency
+    Hourly;                  !- Reporting Frequency
 
 Output:Variable,
     *,                       !- Key Value
@@ -918,13 +900,6 @@ Output:JSON,
     Yes,                     !- Output JSON
     No,                      !- Output CBOR
     No;                      !- Output MessagePack
-
-
-!-   ===========  ALL OBJECTS IN CLASS: OUTPUT:SQLITE ===========
-
-Output:SQLite,
-    SimpleAndTabular,        !- Option Type
-    UseOutputControlTableStyle;  !- Unit Conversion for Tabular Data
 ! 
 ! -------------------------------------------------------------
 ! New objects created from ExpandObjects
