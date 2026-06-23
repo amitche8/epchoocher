@@ -13,16 +13,16 @@ import random
 
 time1 = time.time()
 # EP Choocher Paths
-EP_PATH = r"/usr/local/EnergyPlus-25-1-0"
-base_idf_path = r"/home/amitche8/PassiveSolarBase.idf"
-epw_path = r"/home/amitche8/epwFiles/USA_IL_Chicago-Midway.AP.725340_TMY3.epw"
-study_dir = r"/home/amitche8/PassiveSolarTest2"
+# EP_PATH = r"/usr/local/EnergyPlus-25-1-0"
+# base_idf_path = r"/home/amitche8/PassiveSolarBase.idf"
+# epw_path = r"/home/amitche8/epwFiles/USA_IL_Chicago-Midway.AP.725340_TMY3.epw"
+# study_dir = r"/home/amitche8/PassiveSolarTest2"
 
 # Thinkpad Paths
-# EP_PATH = r"C:\EnergyPlusV25-1-0"
-# base_idf_path = r"C:\Users\amitc_crl\OneDrive\Documents\GitHub\epchoocher\idfFiles\PassiveSolarBase.idf"
-# epw_path = r"C:\Users\amitc_crl\OneDrive\Documents\GitHub\epchoocher\epwFiles\USA_IL_Chicago-Midway.AP.725340_TMY3.epw"
-# study_dir = r"C:\Users\amitc_crl\OneDrive\Documents\GitHub\epchoocher\PassiveSolarTest"
+EP_PATH = r"C:\EnergyPlusV25-1-0"
+base_idf_path = r"C:\Users\amitc_crl\OneDrive\Documents\GitHub\epchoocher\idfFiles\PassiveSolarBase.idf"
+epw_path = r"C:\Users\amitc_crl\OneDrive\Documents\GitHub\epchoocher\epwFiles\USA_IL_Chicago-Midway.AP.725340_TMY3.epw"
+study_dir = r"C:\Users\amitc_crl\OneDrive\Documents\GitHub\epchoocher\PassiveSolarTest"
 
 # Set up the E+ Environment
 iddfile = os.path.join(EP_PATH, 'Energy+.idd')
@@ -75,7 +75,7 @@ def run_passive_solar_test(north_axis,
 
         # Run E+
         idf2 = IDF(os.path.join(temp_dir, f"PassiveSolarTest{case_number}.idf"), epw=epw_path)
-        idf2.run()
+        idf2.run(verbose="q")
 
         # Read results from the .json results file - this is far faster than reading from the html tables
         results_json = os.path.join(temp_dir, "eplusout.json")
@@ -110,6 +110,17 @@ def run_passive_solar_test(north_axis,
         os.chdir(old_cwd)
         shutil.rmtree(temp_dir, ignore_errors=True)
 
+        cases_completed = len(os.listdir(results_dir))
+
+        print(f"Cases completed: {cases_completed}")
+        
+        # print(f"Cases completed: {cases_completed} of {case_count}")
+
+        # time2 = time.time()
+        # time_remaining = round((((time2-time1) / len(os.listdir(results_dir))) * (case_count - cases_completed)) / 3600, 2)
+
+        # print(f"Time remaining: {time_remaining} hours")
+
 # multiprocessing happens here
 if __name__ == '__main__':
     multiprocessing.freeze_support()
@@ -128,12 +139,14 @@ if __name__ == '__main__':
     total_cases = list(itertools.product(north_axis_values, 
                                    shade_pf, shgc_values, u_values))
     
-    cases = total_cases
+    # cases = total_cases
 
     # sample of cases
-    # cases = random.sample(total_cases,4)
+    cases = random.sample(total_cases,4)
 
-    print(f"Running {len(cases)} cases on {cpu_count()} CPU cores...")
+    case_count = len(cases)
+
+    print(f"Running {case_count} cases on {cpu_count()} CPU cores...")
 
     with Pool(processes=cpu_count()) as pool:
         results = pool.starmap(run_passive_solar_test, cases)
@@ -144,5 +157,5 @@ if __name__ == '__main__':
     else:
         print("No case results were generated.")
 
-    time2 = time.time()
-    print(f"Time taken: {round(time2 - time1, 2)} seconds")
+    time3 = time.time()
+    print(f"Time taken: {round(time3 - time1, 2)} seconds")

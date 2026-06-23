@@ -14,7 +14,7 @@ SimulationControl,
 
 Building,
     None,                     !- Name
-    15,                       !- North Axis
+    25,                       !- North Axis
     Suburbs,                  !- Terrain
     0.04,                     !- Loads Convergence Tolerance Value
     0.4,                      !- Temperature Convergence Tolerance Value
@@ -384,8 +384,8 @@ Material:AirGap,
 
 WindowMaterial:SimpleGlazingSystem,
     ParametricWindow,         !- Name
-    2.25,                     !- UFactor
-    0.55;                     !- Solar Heat Gain Coefficient
+    2.5,                      !- UFactor
+    0.2;                      !- Solar Heat Gain Coefficient
 
 Construction,
     ExtWall,                  !- Name
@@ -622,7 +622,7 @@ Shading:Overhang:Projection,
     90,                       !- Tilt Angle from WindowDoor
     0.3048,                   !- Left extension from WindowDoor Width
     0.3048,                   !- Right extension from WindowDoor Width
-    0.3;                      !- Depth as Fraction of WindowDoor Height
+    0.65;                     !- Depth as Fraction of WindowDoor Height
 
 People,
     Occupants,                !- Name
